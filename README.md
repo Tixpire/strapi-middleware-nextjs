@@ -29,20 +29,15 @@ e.g
 touch config/middleware.js
 ```
 
-To use different settings per environment, see the [Strapi docs for environments](https://strapi.io/documentation/v3.x/concepts/configurations.html#environments).
-
-You can parse environment variables for the config here as well if you wish to, please see the [Strapi docs for environment variables](https://strapi.io/documentation/v3.x/concepts/configurations.html#environment-variables).
-
-Enable the cache middleware by adding the following snippet to an empty middleware file or simply add in the settings from the below example:
-
 ```javascript
-module.exports = ({ env }) => ({
+module.exports = {
   settings: {
-    nextjs: {
+	nextjs: {
       enabled: true,
     },
+	public: {
+		defaultIndex: false
+	}
   },
-});
+};
 ```
-
-Starting the CMS should now log the following
