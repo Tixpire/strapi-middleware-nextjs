@@ -1,0 +1,27 @@
+{
+  "name": "strapi-middleware-nextjs",
+  "version": "0.0.1",
+  "description": "NextJS middleware for scrapi",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cody Jones",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tixpire/strapi-middleware-nextjs.git"
+  },
+  "keywords": [
+    "nextjs",
+    "strapi",
+    "middleware"
+  ],
+  "bugs": {
+    "url": "https://github.com/Tixpire/strapi-middleware-nextjs/issues"
+  },
+  "homepage": "https://github.com/Tixpire/strapi-middleware-nextjs#readme"
+}
