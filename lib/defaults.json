@@ -1,7 +1,10 @@
 {
   "nextjs": {
     "enabled": true,
-	"overripeApiRoutes": true
+	"overripeApiRoutes": true,
+	"load": {
+		after: ['public'],
+	}
   },
    "public": {
     "defaultIndex": false
