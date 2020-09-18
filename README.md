@@ -41,3 +41,23 @@ module.exports = {
   },
 };
 ```
+
+and in your root directory create a `pages` folder
+
+```bash
+touch pages/index.js
+```
+
+Paste inside index.js
+```javascript
+function HomePage() {
+  return <div>Welcome to Next.js!</div>
+}
+
+export default HomePage
+```
+
+```bash
+strapi build
+strapi run
+```
