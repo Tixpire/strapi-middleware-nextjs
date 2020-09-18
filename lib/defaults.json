@@ -1,0 +1,9 @@
+{
+  "nextjs": {
+    "enabled": true,
+	"overripeApiRoutes": true
+  },
+   "public": {
+    "defaultIndex": false,
+  }
+}
