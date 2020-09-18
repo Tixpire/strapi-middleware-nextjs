@@ -4,6 +4,6 @@
 	"overripeApiRoutes": true
   },
    "public": {
-    "defaultIndex": false,
+    "defaultIndex": false
   }
 }
