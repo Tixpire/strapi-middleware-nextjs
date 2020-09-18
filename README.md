@@ -32,12 +32,9 @@ touch config/middleware.js
 ```javascript
 module.exports = {
   settings: {
-	nextjs: {
-      enabled: true,
-    },
-	public: {
-		defaultIndex: false
-	}
+    public: {
+        defaultIndex: false
+    }
   },
 };
 ```
