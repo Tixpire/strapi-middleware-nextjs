@@ -2,6 +2,7 @@
   "nextjs": {
     "enabled": true,
 	"overripeApiRoutes": true,
+	"enableProd": false,
 	"load": {
 		"after": ["public"]
 	}

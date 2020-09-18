@@ -1,6 +1,6 @@
 {
   "name": "strapi-middleware-nextjs",
-  "version": "0.0.6",
+  "version": "0.0.61",
   "description": "NextJS middleware for scrapi",
   "main": "lib/index.js",
   "directories": {

@@ -58,3 +58,10 @@ export default HomePage
 strapi build
 strapi run
 ```
+
+### Strapi Middleware NextJS Config
+```javascript
+"enabled": boolean, // Enable or disable the middle ware based on config
+"overripeApiRoutes": boolean, // Enable or disable the api route adjustment [default:"/api/{route}"), false:"/{route}" ]
+"enableProd": boolean, // Enable NextJS middleware in production environment 
+```
